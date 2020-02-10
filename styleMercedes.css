@@ -19,11 +19,50 @@
     border-left: 1px solid gray;
   }
 
+  .container34 {
+    background-color: black;
+    justify-content: flex-start;
+    flex-direction: column;
+
+  }
+  .container33 {
+    background-color: black;
+
+    display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+  }
+
   .container4 {
     align-items: center;
     display: flex;
+    background-color: white;
     justify-content: space-around;
 }
+
+.container44 {
+    align-items: baseline;
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+}
+
+.container5 {
+    position: relative;
+    display: inline-block;
+    justify-content: flex-start;
+    flex-direction: column;
+    
+}
+
+.img2 {
+    position: absolute;
+    opacity: 0.9;
+}
+
 
 .center {
     position: absolute;
@@ -35,12 +74,36 @@
 
 .center-down {
     position: absolute;
+    font-style: italic;
     top: 90%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color: whitesmoke;
     font-size: 45px;
-    font-family: 'Old Standard TT', serif;
+    font-family: 'Vidaloka', serif;
+}
+
+.center-up {
+    position: absolute;
+    font-style: italic;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: 'Prata', serif;
+}
+
+.center {
+    position: absolute;
+    font-style: italic;
+    top: 23%;
+    left: 20%;
+    transform: translate(-12%, -10%);
+    color: whitesmoke;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Arapey', serif;
 }
 
 
@@ -62,12 +125,36 @@
     font-size: 30px;
 }
 
+.title23 {
+    margin: 20px;
+    margin-left: 40px;
+    font-family: 'Vidaloka', serif;
+    color: white;
+    font-size: 30px;
+}
+
+.title22 {
+    top: 80%;
+    margin: 20px;
+    font-family: 'Vidaloka', serif;
+    color: white;
+    font-size: 30px;
+}
+
 .title3 {
     margin-left: 20px;
     font-family: 'Vidaloka', serif;
     color: black;
     font-size: 20px;
 }
+
+.title33 {
+    margin-left: 20px;
+    font-family: 'Vidaloka', serif;
+    color: white;
+    font-size: 20px;
+}
+
 
 .title4 {
     margin: 10px;
@@ -77,6 +164,17 @@
     font-size: 20px;
 }
 
+.title5 {
+    position: absolute;
+    left: 42%;
+    margin-top: 20px;
+    font-family: 'Vidaloka', serif;
+    color: white;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+
 .text {
     margin-left: 20px;
     font-family: 'Arapey', serif; 
@@ -84,6 +182,24 @@
     font-size: 17px;
 }
 
+.texto-encima{
+    position: absolute;
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    text-align: justify;
+    font-size: 20px;
+    top: 60%;
+    margin: 20px;
+}
+
+
+.item2 {
+    position: absolute;
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    margin: 20px;
+}
+
 p {
-    font-family: 'Playfair Display', serif;
+    opacity: 0;
 }
