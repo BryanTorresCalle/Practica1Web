@@ -1,0 +1,89 @@
+.container {
+    background-color: black;
+    justify-content: flex-start;
+    display: flex;
+  }
+
+.container2 {
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+ 
+.container3 {
+    margin-top: 20px;
+    margin-left: 10px;
+    background-color: white;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-left: 1px solid gray;
+  }
+
+  .container4 {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.center-down {
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 45px;
+    font-family: 'Old Standard TT', serif;
+}
+
+
+.item {
+    align-self: center;
+}
+
+
+.title {
+    font-family: 'Old Standard TT', serif;
+    color: white;
+    font-size: 30px;
+}
+
+.title2 {
+    margin: 20px;
+    font-family: 'Vidaloka', serif;
+    color: black;
+    font-size: 30px;
+}
+
+.title3 {
+    margin-left: 20px;
+    font-family: 'Vidaloka', serif;
+    color: black;
+    font-size: 20px;
+}
+
+.title4 {
+    margin: 10px;
+    margin-left: 20px;
+    font-family: 'Old Standard TT', serif;
+    color: gray;
+    font-size: 20px;
+}
+
+.text {
+    margin-left: 20px;
+    font-family: 'Arapey', serif; 
+    color: gray;
+    font-size: 17px;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+}
