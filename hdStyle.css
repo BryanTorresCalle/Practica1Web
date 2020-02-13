@@ -1,0 +1,121 @@
+.containerHeader{
+    background-color: black;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.title1{
+    
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.item{
+    align-self: center;
+}
+
+.containerInfo{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.title2{
+    position: absolute;
+    font-style:  italic;
+    font-weight: bold;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: 'Bookman Old Style';
+}
+
+.info{
+    position: absolute;
+    top: 23%;
+    left: 20%;
+    transform: translate(-12%, -10%);
+    color: black;
+    font-size: 20px;
+    text-align: justify;
+    font-family: 'Bookman Old Style';
+    background-color: rgba(255, 248, 220, 0.521);
+    border-radius: 20px;
+}
+
+.containerInfoCategories{
+    margin-top: 90px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    
+}
+
+.title3{
+    position: relative;
+    font-style:  italic;
+    font-weight: bold;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-size: 45px;
+    font-family: 'Bookman Old Style';
+}
+
+.categories{
+    margin-top: 30px;
+    position: relative;
+    left: 20%;
+    transform: translate(-12%, -10%);
+    color: white;
+    font-size: 30px;
+    text-align: justify;
+    font-family: 'Bookman Old Style';
+    
+}
+
+.containerTopHD{
+    
+    margin-top: 120px;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+}
+
+.infoTop{
+    margin-top: 30px;
+    font-style: italic;
+    position: relative;
+    left: 15%;
+    transform: translate(-12%, -10%);
+    color: white;
+    font-size: 25px;
+    text-align: justify;
+    font-family: 'Bookman Old Style';
+    margin-bottom: 30px;
+    
+}
+
+.tdLeft{
+    font-style: italic;
+    text-align: justify;
+    font-family: 'Bookman Old Style';
+    color: white;
+    font-size: 35px;
+
+}
+
+.tableCont{
+    margin-left: 15px;
+}
+
+.containerTxt{
+    position: relative;
+    justify-content: center;
+    
+}
