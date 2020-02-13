@@ -1,16 +1,16 @@
-.container {
+.containerM {
     background-color: black;
     justify-content: flex-start;
     display: flex;
   }
 
-.container2 {
+.container2M {
     position: relative;
     display: inline-block;
     text-align: center;
 }
 
-.containerVideo{
+.containerVideoM{
     background-color: black;
     display: flex;
 	flex-direction: row;
