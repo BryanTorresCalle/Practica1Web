@@ -8,27 +8,28 @@
         integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="lamboStyles.css">
     <link rel="shortcout icon" href="images/Lamborghini/logo-tab.jpg">
-	<link rel="stylesheet" href="css/fixed.css">
+    <link rel="stylesheet" href="css/fixed.css">
     <title>Lamborghini</title>
 </head>
 
 <body style="background-color: black;">
-    
+
     <nav class="navbar navbar-dark fixed-top">
         <a class="navbar-brand" href="index.html">AutosWiki</a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="lamborghini.html">Lamborghini</a>
-          <a class="nav-item nav-link" href="MercedesBenz.html">Mercedez Benz</a>
-          <a class="nav-item nav-link" href="harleyD.html">Harley Davidson</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-item nav-link" href="lamborghini.html">Lamborghini</a>
+                <a class="nav-item nav-link" href="MercedesBenz.html">Mercedez Benz</a>
+                <a class="nav-item nav-link" href="harleyD.html">Harley Davidson</a>
+            </div>
         </div>
-      </div>
     </nav>
-    
+
     <div class="container">
         <img src="images/Lamborghini/Logo lambo.jpg" alt="Logo lambo" srcset="" width="200" height="100">
         <div class="item">
@@ -85,21 +86,39 @@
         <div class="textBtw">¿Quieres saber más de Lamborghini?</div>
     </div>
     <br><br><br>
+
+
     <div class="containerTxt">
-        <a class="btn btn-primary" href="https://www.lamborghini.com/es-en" role="button" style="background-color:#E7E310;
+        <form>
+            <div class="form-group" title="Suscribete a nuestro servicio de notificacion">
+                <label for="email" class="label">Correo electronico</label>
+                <input type="email" class="form-control" id="email" aria-describedby="emailHelp">
+                <small id="emailHelp" class="form-text text-muted">Recuerda que estos datos no seran compartidos</small>
+            </div>
+            <div class="form-group">
+                <label for="nombre" class="label">Nombre</label>
+                <input type="text" class="form-control" id="nombre">
+            </div>
+            <button type="button" class="btn btn-primary" id="suscripcion" style="background-color:#E7E310;" onclick="javascript:void(0)">
+                Suscribirse</button>
+            <br>
+            <a class="btn btn-primary" href="https://www.lamborghini.com/es-en" role="button" style="background-color:#E7E310;
         text-emphasis-color: blue;">Visita aquí su sitio oficial</a>
     </div>
-    
+    </div>
+    </form>
+    </div>
 
-        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-            integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-            crossorigin="anonymous"></script>
-        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-            integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-            crossorigin="anonymous"></script>
-        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-            integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-            crossorigin="anonymous"></script>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

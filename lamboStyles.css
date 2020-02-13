@@ -63,3 +63,9 @@
     width: 100%;
     max-height: 800px;
 }
+  
+.label{
+    font-family: 'Prata', serif;
+    color: white;
+    font-size: 30px;
+}
